@@ -1,0 +1,118 @@
+.gpt3__navbar{
+    display: flex;
+    align-items: center;
+    padding: 2rem 6rem;
+    justify-content: space-between;
+}
+.gpt3__navbar_links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.gpt3__navbar_links_logo{
+    margin-right: 2rem;
+}
+
+.gpt3__navbar_links_logo img{
+    width: 62.56px;
+    height: 16.02px;
+}
+.gpt3__navbar_links_container{
+    display: flex;
+}
+.gpt3__navbar_sign{
+    display: flex;
+    justify-content:flex-end;
+    align-items: end;
+
+}
+.gpt3__navbar_links_container p,
+.gpt3__navbar_sign p,
+.gpt3__navbar_menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.gpt3__navbar_sign button,
+.gpt3__navbar_menu_container button{
+    width: 100px;
+    height: 30px;
+    left: 1152px;
+    top: 55px;
+    background: #FF4820;
+    border-radius: 5px;
+    line-height: 25px;
+    border: none;
+}
+.gtp3__navbar_menue{
+    display: none;
+    position: relative;
+    margin-left: 1rem;
+}
+
+.gpt3__navbar_menue_container{
+    
+    text-align: end; 
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    top : 40px;
+    right: 0px;
+    color: white;
+    width: 210px;
+    border-radius: 5px;
+    border-radius: 0 0 5 rgba(0,0,0,0,0.2);
+    line-height: 30px;
+}
+
+.gpt3__navbar_menue_container_links_sign button{
+    width: 100px;
+    height: 30px;
+    left: 1152px;
+    top: 55px;
+    background: #FF4820;
+    border-radius: 5px;
+    line-height: 25px;
+    border: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: medium;
+}
+@media screen and (max-width : 750px) {
+        .gpt3__navbar_links_container{
+            display: none;
+        }
+        .gtp3__navbar_menue{
+            display: block;
+        }
+        .gpt3__navbar_links{
+            display:  flex;
+            justify-content: space-between;
+        }
+}
+
+@media screen and (max-width : 650px) {
+    .gpt3__navbar_links_container{
+        display: none;
+    }
+    .gtp3__navbar_menue{
+        display: block;
+    }
+    .gpt3__navbar_sign{
+        display: none;
+
+    }
+    .gpt3__navbar_links{
+        display:  flex;
+        justify-content: space-between;
+    }
+}

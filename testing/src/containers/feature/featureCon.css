@@ -1,0 +1,92 @@
+/* .featureCon{
+    display: flex;
+    height: auto;
+    font-family: var(--font-family);
+}
+.left{
+    width: 50%;
+    border: 2px solid brown;
+    font-size: small;
+
+}
+.left h1{
+    margin-top: 9rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
+}
+.left p  {
+    margin-left: 9rem;
+    color: white;
+}
+
+.right{
+    width: 50%;
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+}
+.right_child{
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.right_subchild_title{
+    color: white;
+    line-height: 30px;
+    margin: 2rem;
+    font-size: medium;
+    width: 30%;
+}
+.right_subchild_text{
+    color: white;
+    font-size: x-small;
+    width: 70%;
+
+} */
+
+
+/* FeatureCon-CSS---> */
+.featureCon{
+    display: flex;
+    /* flex: 1; */
+    width: 80%;
+    margin: 0 auto;
+    font-family: var(--font-family);
+}
+.featureLeft>h1{
+    width: 70%;
+}
+.featureLeft>p{
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: orange;
+}
+/* FeatureCard-CSS---> */
+.featureCard{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+.featureCard>h3{
+    width: 40%;
+    color: white;
+}
+.featureCardTitle{
+    position: relative;
+}
+.featureCardTitle::before{
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    background-color: darkorange;
+    line-height: 10px;
+}
+
+.featureCard>p{
+    width: 60%;
+    color: rgb(150, 134, 255);
+}

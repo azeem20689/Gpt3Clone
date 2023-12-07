@@ -1,0 +1,30 @@
+.blog{
+    font-family: var(--font-family);
+    width: 80%;
+    margin: 0 auto;
+}
+.heading{
+    margin-bottom: 2rem;
+}
+.blog_container{
+    display: flex;
+}
+.blog_container_a{
+    width: 40%;
+    margin-right: 2rem;
+    flex: 0.75;
+}
+
+
+.blog_container_a .lastP{
+    margin-top: 11.8rem;
+}
+
+.blog_container_b{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    height: 90%;
+    
+}

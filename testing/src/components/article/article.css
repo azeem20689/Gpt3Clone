@@ -1,0 +1,26 @@
+.article{
+    color: white;
+    font-family: var(--font-family);
+    background-color: var(--color-footer);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+.article p{
+    font-size: xx-small;
+}
+.article p{
+    cursor: pointer;
+}
+.article_image img{
+    width: 100%;
+   
+}
+
+.text_content{
+    padding: 0.5rem;
+}
+.lastP {
+    padding: 0.5rem;
+}

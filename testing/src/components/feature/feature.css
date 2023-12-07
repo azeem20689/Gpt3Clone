@@ -1,0 +1,21 @@
+.feature_container{
+    color: white;
+    font-family: var(--font-family);
+    width: 1005;
+    display: flex;
+    justify-content: space-between;
+
+}
+.feature_container_text{
+    color: white;
+}
+.featureTitle{
+    position: relative;
+}
+.featureTitle::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: orange;
+}
